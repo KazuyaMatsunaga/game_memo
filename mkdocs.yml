@@ -13,7 +13,7 @@ extra:
 extra_css:
   - '//fonts.googleapis.com/earlyaccess/notosansjp.css'
   - '//fonts.googleapis.com/css?family=Open+Sans:600,800'
-  - 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+  - 'https://use.fontawesome.com/releases/v5.13.0/css/all.css'
 markdown_extensions:
   - admonition
   - footnotes
