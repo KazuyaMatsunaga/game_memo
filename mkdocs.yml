@@ -4,9 +4,8 @@ theme:
   palette:
     primary: black
   icon:
-    logo: fontawesome/solid/gamepad
-    repo: fontawesome/solid/gamepad
-  favicon: images/favicon.ico
+    logo: material/gamepad-variant
+  favicon: favicon.ico
 
 extra:
   search:
