@@ -4,12 +4,18 @@ theme:
   palette:
     primary: black
   icon:
-    logo: material/gamepad-variant
+    logo: material_custom/sports_esports-white-18dp
+  custom_dir: overrides
   favicon: favicon.ico
 
 extra:
   search:
     language: 'en, ja'
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/_x_neo_
+    - icon: fontawesome/brands/github
+      link: https://github.com/KazuyaMatsunaga
 extra_css:
   - '//fonts.googleapis.com/earlyaccess/notosansjp.css'
   - '//fonts.googleapis.com/css?family=Open+Sans:600,800'
