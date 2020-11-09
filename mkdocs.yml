@@ -5,7 +5,7 @@ theme:
     primary: black
   icon:
     logo: fontawesome/solid/gamepad
-  favicon: ./images/game.png
+  favicon: images/game.png
 
 extra:
   search:
