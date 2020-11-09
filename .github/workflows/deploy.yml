@@ -28,6 +28,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2
       with:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./site
         cname: capr1gaming.wiki
