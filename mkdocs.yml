@@ -1,0 +1,30 @@
+site_name: Game Memo
+theme:
+  name: material
+  palette:
+    primary: black
+  icon:
+    logo: fontawesome/solid/gamepad
+  favicon: ./images/game.png
+
+extra:
+  search:
+    language: 'en, ja'
+extra_css:
+  - '//fonts.googleapis.com/earlyaccess/notosansjp.css'
+  - '//fonts.googleapis.com/css?family=Open+Sans:600,800'
+  - 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
+markdown_extensions:
+  - admonition
+  - footnotes
+  - fontawesome_markdown
+  - pymdownx.keys
+  - codehilite:
+      use_pygments: true
+      noclasses: true
+      pygments_style: vim
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
