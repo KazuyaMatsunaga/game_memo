@@ -5,7 +5,8 @@ theme:
     primary: black
   icon:
     logo: fontawesome/solid/gamepad
-  favicon: images/game.png
+    repo: fontawesome/solid/gamepad
+  favicon: images/favicon.ico
 
 extra:
   search:
@@ -13,7 +14,7 @@ extra:
 extra_css:
   - '//fonts.googleapis.com/earlyaccess/notosansjp.css'
   - '//fonts.googleapis.com/css?family=Open+Sans:600,800'
-  - 'https://use.fontawesome.com/releases/v5.13.0/css/all.css'
+  - 'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'
 markdown_extensions:
   - admonition
   - footnotes
